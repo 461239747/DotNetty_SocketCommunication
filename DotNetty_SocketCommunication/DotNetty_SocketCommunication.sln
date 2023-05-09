@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33626.354
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetty_SocketCommunication", "DotNetty_SocketCommunication\DotNetty_SocketCommunication.csproj", "{2765EA91-51A6-4183-A2B0-7D79B0C02B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetworkAssemble", "NetworkAssemble", "{E0AE32AD-53E6-409A-8AE6-5DD335AF4164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network.Struct", "NetworkAssemble\Network.Struct\Network.Struct.csproj", "{CD446D05-5C3A-48BF-A009-3FA624010663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkHelper", "NetworkAssemble\NetworkHelper\NetworkHelper.csproj", "{B41C197D-397F-4AD5-896B-CB68CE63CE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkSocket", "NetworkAssemble\NetworkSocket\NetworkSocket.csproj", "{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2765EA91-51A6-4183-A2B0-7D79B0C02B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2765EA91-51A6-4183-A2B0-7D79B0C02B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2765EA91-51A6-4183-A2B0-7D79B0C02B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2765EA91-51A6-4183-A2B0-7D79B0C02B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD446D05-5C3A-48BF-A009-3FA624010663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD446D05-5C3A-48BF-A009-3FA624010663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD446D05-5C3A-48BF-A009-3FA624010663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD446D05-5C3A-48BF-A009-3FA624010663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41C197D-397F-4AD5-896B-CB68CE63CE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41C197D-397F-4AD5-896B-CB68CE63CE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41C197D-397F-4AD5-896B-CB68CE63CE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41C197D-397F-4AD5-896B-CB68CE63CE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD446D05-5C3A-48BF-A009-3FA624010663} = {E0AE32AD-53E6-409A-8AE6-5DD335AF4164}
+		{B41C197D-397F-4AD5-896B-CB68CE63CE71} = {E0AE32AD-53E6-409A-8AE6-5DD335AF4164}
+		{C2DA2F13-6E6E-428A-BF26-E56D0488E3A3} = {E0AE32AD-53E6-409A-8AE6-5DD335AF4164}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B159264-455F-4FD6-8802-B8B326FD2F30}
+	EndGlobalSection
+EndGlobal
