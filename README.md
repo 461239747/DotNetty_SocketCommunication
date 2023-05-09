@@ -10,3 +10,4 @@ This is a simple example of a second-level encapsulation of TCP communication us
 NetworkHelper references the DotNetty.Transport and Newtonsoft.Json packages, while NetworkSocket references the DotNetty.Handlers and DotNetty.Transport packages. Simple_NettySocket references the DotNetty.Transport.Libuv and Newtonsoft.Json packages.
 
 Note that after referencing DotNetty.Transport.Libuv, the program will not automatically generate Libuv in the directory during the build. If you encounter a DLL file not found error, please place the required DLL files in the running directory under the Simple_NettySocket/Libuv1.10.0DLL folder. You can also find these files in the packages folder of your project.
+# DotNetty_SocketCommunication
